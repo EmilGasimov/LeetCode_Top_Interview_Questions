@@ -1,2 +1,1 @@
-# LeetCode Top Interview Questions 
-Top Interview Questions - Medium Collection
+# LeetCode Top Interview Questions - Medium Collection

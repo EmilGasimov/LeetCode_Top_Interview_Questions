@@ -80,7 +80,7 @@ class Solution {
     }
 }
 ```
-### Solution 3 [without sorting]
+### Solution 3 [without sorting - probably the best one]
 ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {

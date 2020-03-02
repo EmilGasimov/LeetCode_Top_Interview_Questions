@@ -63,7 +63,7 @@ class Solution {
 }
 ```
 
-###Solution 2 [efficient]
+### Solution 2 [efficient]
 ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {

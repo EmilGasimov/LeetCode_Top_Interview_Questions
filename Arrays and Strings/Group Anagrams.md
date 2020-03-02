@@ -55,7 +55,7 @@ class Solution {
                 List<String> l = new ArrayList<>();
                 l.add(strs[i]);
                 anagrams.add(l);
-                //anagrams.add(Arrays.asList(strs[i]));   -- cannot add a new element to the list
+                //anagrams.add(Arrays.asList(strs[i]));   -- this does not work; cannot add a new element to the list
             }
         }
         return anagrams;

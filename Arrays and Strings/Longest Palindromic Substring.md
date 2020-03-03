@@ -30,8 +30,8 @@ private int expandAroundCenter(String s, int left, int right) {
 
 
 ### Solution 2 [Manacher's algorithm; linear time]
-public class ManachersAlgorithm {
-    
+```java
+public class ManachersAlgorithm {    
     public static String findLongestPalindrome(String s) {
         if (s==null || s.length()==0)
             return "";

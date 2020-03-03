@@ -2,7 +2,7 @@ Write a program to find the node at which the intersection of two singly linked 
 
 For example, the following two linked lists begin to intersect at node c1.
 
-[image]( https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png)
+![image]( https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png)
 
 
 

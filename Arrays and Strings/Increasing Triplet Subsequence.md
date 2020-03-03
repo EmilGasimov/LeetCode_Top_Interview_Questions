@@ -2,9 +2,6 @@ Given an unsorted array, return whether an increasing subsequence of length 3 ex
 
 ### Solution [linear time, constant space]
 
-the min value
-the smallest second value: the smallest value that has something before it that is even smaller. That 'something before it that is even smaller' does not have to be the current min value.
-
 `min` - the min value.
 
 `secondMin` - the smallest second value: the smallest value that has something before it that is even smaller. That 'something before it that is even smaller' does not have to be the current min value.

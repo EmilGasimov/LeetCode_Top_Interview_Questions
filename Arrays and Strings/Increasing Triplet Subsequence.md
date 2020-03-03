@@ -1,16 +1,23 @@
 Given an unsorted array, return whether an increasing subsequence of length 3 exists or not.
 
 ### Solution [linear time, constant space]
-(the point is, the order of `min` and `mid` does not matter (`min` may come after `mid` in `nums`); the function returns `true` if and only if there exists a number that is greater than `mid`.)
+
+the min value
+the smallest second value: the smallest value that has something before it that is even smaller. That 'something before it that is even smaller' does not have to be the current min value.
+
+`min` - the min value.
+
+`secondMin` - the smallest second value: the smallest value that has something before it that is even smaller. That 'something before it that is even smaller' does not have to be the current min value.
+
 
 ```java
 class Solution {
     public boolean increasingTriplet(int[] nums) {
-        int min = Integer.MAX_VALUE, mid = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE, secondMin = Integer.MAX_VALUE;
         for (int n : nums) {
             if (n < min) min = n;
-            else if (n != min && n < mid) mid = n;            
-            else if (n > mid) return true;
+            else if (n != min && n < secondMin) mid = n;            
+            else if (n > secondMin) return true;
         }
         
         return false;

@@ -1,7 +1,7 @@
 Given an unsorted array, return whether an increasing subsequence of length 3 exists or not.
 
 ### Solution [linear time, constant space]
-(the point is, the order of `min` and `mid` does not matter; the function returns `true` if and only if there exists a number that is greater than `mid`.)
+(the point is, the order of `min` and `mid` does not matter (`min` may come after `mid` in `nums`); the function returns `true` if and only if there exists a number that is greater than `mid`.)
 
 ```java
 class Solution {

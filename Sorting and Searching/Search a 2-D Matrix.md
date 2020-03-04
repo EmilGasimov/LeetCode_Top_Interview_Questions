@@ -53,7 +53,7 @@ class Solution {
     }
 }
 ```
-### Solution [efficient; time complexity : O(number of rows + number of columsn)]
+### Solution [efficient; time complexity : O(number of rows + number of columns)]
 ```java
 public boolean searchMatrix(int[][] matrix, int target) {
     if (matrix == null || matrix.length == 0 || matrix[0].length == 0)

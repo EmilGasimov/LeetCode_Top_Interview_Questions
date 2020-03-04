@@ -55,7 +55,7 @@ class Solution {
 ```
 ### Solution [efficient; time complexity : O(number of rows + number of columns)]
 
-We start searching the matrix from the top right corner, initialize the current position to the top right corner. If the target value is greater than the value in the current position, then the target can not be in the entire row of the current position because the row is sorted. If the target value is less than the value in the current position, then the target can not be in the entire column because the column is sorted too. We can rule out one row or one column at each iteration, so the time complexity is `O(m+n)`.
+We start searching the matrix from the top right corner and initialize the current position to the top right corner. If the target value is greater than the value in the current position, then the target can not be in the entire row of the current position because the row is sorted. If the target value is less than the value in the current position, then the target can not be in the entire column because the column is sorted too. We can rule out one row or one column at each iteration, so the time complexity is `O(m+n)`.
 
 ```java
 public boolean searchMatrix(int[][] matrix, int target) {
